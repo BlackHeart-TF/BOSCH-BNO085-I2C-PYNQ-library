@@ -9,6 +9,10 @@ it may work with other i2c implementations as well
 
 This library has been tested with a BNO085 sensor.
 
+## How to install
+
+    pip install git+https://github.com/BlackHeart-TF/BOSCH-BNO085-I2C-PYNQ-library
+
 ## How to setup (not updated)
 
 Need to set up the I2C
