@@ -8,7 +8,6 @@ version = "0.1.0"
 description = "BNO08x IMU sensor library"
 authors = [
     {name = "BlackHeart-TF", email = "noire@gmx.ca"},
-    {name = "adafruit", email = "adafruit.com"},
 ]
 readme = "README.md"
 license = {text = "MIT"}
