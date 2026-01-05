@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bno08x"
+version = "0.1.0"
+description = "BNO08x IMU sensor library"
+authors = [
+    {name = "BlackHeart-TF", email = "noire@gmx.ca"},
+    {name = "adafruit", email = "adafruit.com"},
+]
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["imu", "sensor", "bno08x", "i2c", "spi"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: System :: Hardware",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/BlackHeart-TF/BOSCH-BNO085-I2C-PYNQ-library"
+Repository = "https://github.com/BlackHeart-TF/BOSCH-BNO085-I2C-PYNQ-library"
+"Issue Tracker" = "https://github.com/BlackHeart-TF/BOSCH-BNO085-I2C-PYNQ-library/issues"
+
+[tool.setuptools]
+packages = ["bno08x"]
