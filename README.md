@@ -4,19 +4,12 @@
 - 100% inspired by the original Adafruit Circuitpython I2C library for BNO08X
 - Copyright (c) 2020 Bryan Siepert for Adafruit Industries
 
-## This library is working with:
+## This library is a work in progress targetting PYNQ-Z2 with base overlay.
+it may work with other i2c implementations as well
 
-|  Manufacturer |  Chips  |  Observations |
-| ------------ | ------------ | ------------ | 
-|  Raspberry | Pico, Pico W,  Pico 2,  Pico 2 W   |   |
-|  Espressif | Esp32 S2, Esp32 S3 |  See Requirements |
+This library has been tested with a BNO085 sensor.
 
-This library has been tested with BNO080, BNO085, and BNO086 sensors.
-
-ESP32 S3 need a firmware compiled with ESP-IDF 5.3.2 (maybe 5.3.1 will also work)
-[Firmware for Lilygo AMOLED displays](https://github.com/dobodu/Lilygo-Amoled-Micropython/blob/main/firmware/firmware_2024_12_28.bin "Firmware for Lilygo AMOLED displays")
-
-## How to setup
+## How to setup (not updated)
 
 Need to set up the I2C
 
